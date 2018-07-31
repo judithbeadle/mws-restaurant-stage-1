@@ -118,9 +118,7 @@ nav h1 a {
 }
 
 @media screen and (min-width: 40em) {
-  #maincontent{
-    padding-top: 8rem; /* offset for header and nav */
-  }
+  
   nav {
       height: 5em; /* 80px */
   }
@@ -386,6 +384,9 @@ nav h1 a {
   }
   #restaurant-container, #reviews-container {
     width: 50%;
+  }
+  #restaurant-container{
+    padding-top: 8rem; /* offset for header and nav */
   }
   #reviews-list li .rating{
     float: right;
