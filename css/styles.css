@@ -118,6 +118,9 @@ nav h1 a {
 }
 
 @media screen and (min-width: 40em) {
+  #maincontent{
+    padding-top: 8rem; /* offset for header and nav */
+  }
   nav {
       height: 5em; /* 80px */
   }
