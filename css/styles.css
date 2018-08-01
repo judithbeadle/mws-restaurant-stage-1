@@ -68,12 +68,11 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   box-sizing: border-box;
 }
 /* ====================== Navigation ====================== */
-nav {
+
+nav h1 {
   width: 100%;
   background-color: #252831;
   text-align:center;
-}
-nav h1 {
   margin: auto;
   padding: 0.25em 0.5em 0.5em;
   line-height: 1;
@@ -118,12 +117,9 @@ nav h1 a {
 }
 
 @media screen and (min-width: 40em) {
-  
-  nav {
-      height: 5em; /* 80px */
-  }
   nav h1 {
-    padding-top: 1em;
+    height: 5rem; /* 80px */
+    padding-top: 1rem;
   }
   #breadcrumb {
     padding: 0.625rem 2.5rem 1rem;
